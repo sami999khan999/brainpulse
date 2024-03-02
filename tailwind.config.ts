@@ -8,9 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        primary: "#0F172A",
-        scoundary: "#1E293B",
+      colors: {
+        pr: "#0F172A",
+        se: "#1E293B",
+        pr2: "#020617",
         white: "#FFFFFF",
         vaiolet: "#6366F1",
         blue: "#38BDF8",
