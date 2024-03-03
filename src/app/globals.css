@@ -11,15 +11,15 @@
   @apply relative; /* Apply relative positioning */
 }
 
+body {
+  @apply text-white;
+}
+
 .nav-link::after {
-  @apply absolute inset-x-0 bottom-1.5;
   content: "";
-  width: 0%;
-  height: 3px;
-  @apply bg-gray-400;
-  @apply duration-300 ease-in-out;
+  @apply absolute inset-x-0 bottom-1.5 bg-gray-400 duration-300 ease-in-out w-[0%] h-[3px];
 }
 
 .nav-link:hover::after {
-  width: 100%;
+  @apply w-[100%];
 }
