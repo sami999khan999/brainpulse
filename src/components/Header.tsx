@@ -9,13 +9,13 @@ const Header = () => {
           <p className="text-white text-2xl">Logo</p>
         </Link>
         <div className="flex lg:gap-20 md:gap-10 gap-5 font-medium tracking-widest lg:text-lg">
-          <Link href="/" className="nav-link">
+          <Link href="/test" className="nav-link">
             Test
           </Link>
-          <Link href="/" className="nav-link">
+          <Link href="/about" className="nav-link">
             About
           </Link>
-          <Link href="/" className="nav-link">
+          <Link href="/contact" className="nav-link">
             Contact
           </Link>
         </div>
